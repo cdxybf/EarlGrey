@@ -33,6 +33,7 @@ NSString *const kGREYDidPerformAssertionNotification = @"GREYDidPerformAssertion
 
 NSString *const kGREYInteractionErrorDomain = @"com.google.earlgrey.ElementInteractionErrorDomain";
 NSString *const kGREYPinchErrorDomain = @"com.google.earlgrey.PinchErrorDomain";
+NSString *const kGREYTwistErrorDomain = @"com.google.earlgrey.TwistErrorDomain";
 NSString *const kGREYSyntheticEventInjectionErrorDomain =
     @"com.google.earlgrey.SyntheticEventInjectionErrorDomain";
 NSString *const kGREYUIThreadExecutorErrorDomain =

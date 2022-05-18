@@ -162,6 +162,11 @@ GREY_EXTERN NSString *const kErrorDetailAppScreenshotsKey;
 GREY_EXTERN NSString *const kGREYPinchErrorDomain;
 
 /**
+ * The error domain for twist action related errors.
+ */
+GREY_EXTERN NSString *const kGREYTwistErrorDomain;
+
+/**
  * Extern variables specifying the user info keys for a pinch action.
  */
 GREY_EXTERN NSString *const kErrorDetailElementKey;
@@ -236,6 +241,13 @@ GREY_EXTERN NSString *const kGREYPinchErrorDomain;
  */
 typedef NS_ENUM(NSInteger, GREYPinchErrorCode) {
   kGREYPinchFailedErrorCode = 0,
+};
+
+/**
+ * Error codes for twist related failures.
+ */
+typedef NS_ENUM(NSInteger, GREYTwistErrorCode) {
+  kGREYTwistFailedErrorCode = 0,
 };
 
 /**
